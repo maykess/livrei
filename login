@@ -1,18 +1,21 @@
 /* fonte diva */
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 
-body, html {
-  height: 100%;
-  width: 100%;
-  background-color: #f7b6b6 !important;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Patrick Hand', cursive;
 }
 
-.background{
+body, html {
+  height: 100%;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
 }
+
 
 .container {
   width: 100%;
@@ -21,22 +24,24 @@ body, html {
   align-items: center;
 }
 
-
 .card {
   padding: 30px;
   border-radius: 30px;
   width: 350px;
   box-shadow: 0 0 10px rgba(0,0,0,0.05);
   text-align: center;
-  background-color: #f7b6b6;
-  box-shadow: #555 0px 0px 10px;
 }
 
 /* logo livrei */
 .logo {
   width: 140px;
   margin-bottom: 10px;
-  margin-left: 75px;
+}
+
+/* titulo */
+.titulo {
+  font-size: 22px;
+  margin-bottom: 25px;
 }
 
 /* formulário */
@@ -84,7 +89,7 @@ body, html {
 }
 
 .links a:hover {
-  color: #f7b6b6;
+  color: #555;
 }
 
 /* botão */
